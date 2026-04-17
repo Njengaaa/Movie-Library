@@ -46,17 +46,23 @@ public class RentalsGUI extends Application {
         grid.setStyle("-fx-background-color: BEIGE;");
 
 
-        grid.add(lblCustomer, 0, 0);   grid.add(comboCustomer, 1, 0);
-        grid.add(lblGenre, 0, 1);      grid.add(comboGenre, 1, 1);
-        grid.add(lblMovies, 0, 2);     grid.add(comboMovies, 1, 2);
+        grid.add(lblCustomer, 0, 0);
+        grid.add(comboCustomer, 1, 0);
+        grid.add(lblGenre, 0, 1);
+        grid.add(comboGenre, 1, 1);
+        grid.add(lblMovies, 0, 2);
+        grid.add(comboMovies, 1, 2);
 
         grid.add(btnSaveRental, 1, 3);
 
-        grid.add(lblBorrowed, 0, 4);   grid.add(comboBorrowed, 1, 4);
+        grid.add(lblBorrowed, 0, 4);
+
+        grid.add(comboBorrowed, 1, 4);
 
         grid.add(btnReturnMovie, 1, 5);
 
-        grid.add(lblReturned, 0, 6);   grid.add(comboReturned, 1, 6);
+        grid.add(lblReturned, 0, 6);
+        grid.add(comboReturned, 1, 6);
 
 
 
